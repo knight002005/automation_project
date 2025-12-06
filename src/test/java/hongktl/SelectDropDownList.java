@@ -56,7 +56,7 @@ public class SelectDropDownList {
     driver.findElement(By.xpath("//label[contains(text(),'Group Select')]/parent::div/div/select/optgroup[@label='Group 1']/following-sibling::optgroup[@label='Group 3']/option[text()='Option 7']")).click();
   }
 
-  @AfterClass
+ @AfterClass
  public void tertDown()
  {
    if (driver!=null)
